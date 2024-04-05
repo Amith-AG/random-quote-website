@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+body{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  background-color:#73BDEB;
+ 
+}
+#quote-box{
+  display:flex;
+  flex-direction:column;
+  background-color:white;
+  width:400px;
+  min-height:200px;
+  max-height:400px;
+  border-radius:1rem;
+  padding:1.5rem;
+  justify-content:space-between;
+  
+}
+#text{
+  font-family:Times New Roman;
+  font-weight:500;
+  font-size:1.2rem;
+  margin-left:.5rem;
+  margin-right:.5rem;
+  
+}
+#author{
+  text-align:end;
+}
+#new-quote{
+    padding:.5rem 1rem;
+    background-color:#73BDEB;
+    color: white;
+    font-weight:600;
+    border:none;
+    border-radius:.5rem;
+}
+#tweet-quote{
+  font-size:1.2rem;
+  padding:.5rem 1rem;
+  border-radius:.5rem;
+  background-color:#73BDEB;
+  color:white;
+
+}
+#footer{
+  display:flex;
+  justify-content:space-between
+}
+#quote-icon{
+  color:#73BDEB;
+}
+#quote-icon-right{
+  color:#73BDEB;
+}
+#dev{
+  color:white;
+  text-decoration: none;
+  margin-top:.5rem;
+}
